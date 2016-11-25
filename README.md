@@ -7,16 +7,16 @@ InputBox(rect, **args)
 
 Arguments
 ---------
-rect: create the bar editor in the region defined by rect.
+*rect*: create the bar editor in the region defined by rect.
 
 Keyword arguments
 -----------------
-font: font of the input text.  
-text: text in the input bar initially.  
-bk_image: background image of the text input bar.  
-bk_color: background color of the text input bar, ignored when bk_image is specified.  
-bd_color: border color, no border if this keyword is missing or None.  
-text_color: color of the input text. White color if this keyword is missing.  
+*font*: font of the input text.  
+*text*: text in the input bar initially.  
+*bk_image*: background image of the text input bar.  
+*bk_color*: background color of the text input bar, ignored when bk_image is specified.  
+*bd_color*: border color, no border if this keyword is missing or None.  
+*text_color*: color of the input text. White color if this keyword is missing.  
 
 Return value
 ------------
